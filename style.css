@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #0D192B;
+    color: #fff;
+    font-size: 2rem;
+    color: #8bacda;
+}
+
+.hidden {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+    color: white;
+}
+
+.final-winner {
+    background-color: hsl(171, 100%, 41%) ;
+    color: #fff;
+}
+
+.final-loser {
+    background-color: hsl(348, 100%, 61%) ;
+    color: #fff;
+}
+
+
+.card {
+    width: 30%;
+    margin-top: 10rem;
+    background-color: #14253D;
+    border-radius: 0.7rem;
+    overflow: hidden;
+}
+
+.card-header {
+    position: relative;
+}
+
+
+
+.card-image {
+    width: 100%;
+    margin-bottom: 6rem;
+    border-radius: 0 0 2rem 2rem;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.card-header-title {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #14253D;
+    border: 0.5rem solid #fff;
+    border-radius: 200rem;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.table {
+   width: 100%;
+   margin-bottom: 3rem;
+   border-collapse: separate;
+}
+
+th {
+    color: #fff;
+}
+
+
+#name1, #name2, #name  {
+    text-align: initial;
+}
+
+
+th, td {
+    text-align: center;
+}
+
+.edit {
+    padding: 0;
+    border: none;
+    background-color: inherit;
+}
+
+.edit-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    stroke: #8bacda;
+    color: #8bacda;
+}
+
+.number-of-sets {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+select {
+    padding: .7rem;
+    border-radius: 10000px;
+    border: none;
+    font-size: 2rem;
+}
+
+.instruction {
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+}
+
+
+footer {
+    font-size: 0;
+    display: flex;
+
+}
+
+footer button {
+    font-size: 2rem;
+    display: inline;
+    width: calc(100%/3);
+    border: none;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    color: inherit;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    
+}
+
+#p1Button {
+    background-color: hsl(171, 100%, 41%);
+}
+
+#p2Button {
+    background-color: hsl(204, 86%, 53%);
+}
+
+#reset {
+    background-color: hsl(348, 100%, 61%);
+}
+
+@media (max-width: 2100px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1472px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 50%;
+    }
+
+    .card {
+        width: 60%;
+        margin-top: 8rem;
+    }
+}
+
+@media (max-width: 687px) {
+    html {
+        font-size: 40%;
+    }
+
+    .card {
+        width: 65%;
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 523px) {
+    .card {
+        width: 90%;
+        margin-top: 3rem;
+    }
+}
+
+
